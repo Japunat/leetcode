@@ -1,0 +1,19 @@
+1.dsa(3hr)
+
+2.python -
+
+3.shared preferences 
+4.firebase
+5.1 project 
+6
+7
+8
+9
+10
+n = int(input())
+arr =list(map(int, input().split()))
+for i in range(n):
+        arr.sort(reverse=True)
+        if arr[i]!=arr[i+1]:
+            print(arr[i+1])
+            break
